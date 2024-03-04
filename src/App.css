@@ -1,0 +1,67 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: serifBold;
+  src: url('../public/fonts/PTSerif-Bold.ttf');
+}
+@font-face {
+  font-family: serifRegular;
+  src: url('../public/fonts/PTSerif-Regular.ttf');
+}
+@font-face {
+  font-family: robotoBold;
+  src: url('../public/fonts/Roboto-Bold.ttf');
+}
+@font-face {
+  font-family: robotoRegular;
+  src: url('../public/fonts/Roboto-Regular.ttf');
+}
+
+.navigation{
+  background-color: #b5bdfa;
+  width: 100%;
+  font-family: serifBold;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.homepage{
+  text-decoration: none;
+  color: #222;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+/* Media Queries */
+@media(max-width: 320px){
+  .homepage{
+    font-size: .5rem;
+  }
+}
+@media(min-width: 321px) and (max-width: 425px){
+  .homepage{
+    font-size: .6rem;
+  }
+}
+@media(min-width: 426px) and (max-width: 768px){
+  .homepage{
+    font-size: .8rem;
+  }
+}
+@media(min-width: 769px) and (max-width: 1024px){
+  .homepage{
+    font-size: 1rem;
+  }
+}
+@media(min-width: 1025px){
+  .homepage{
+    font-size: 1.3rem;
+  }
+}

@@ -1,0 +1,193 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #b5bdfa;
+    padding: 30px;
+    row-gap: 20px;
+    border-radius: 10px;
+}
+
+.header-section{
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: robotoRegular;
+}
+
+.title input{
+    width: 100%;
+    height: 40px;
+    border-radius: 7px;
+    border: none;
+    color: #222;
+    font-family: serifRegular;
+    font-size: 1.2rem;
+    font-weight: 600;
+    outline: none;
+    padding: 15px;
+}
+
+.body textarea{
+    width: 100%;
+    height: 200px;
+    border-radius: 7px;
+    border: none;
+    color: #222;
+    font-family: serifRegular;
+    font-weight: 600;
+    text-indent: 10px;
+    outline: none;
+    padding: 15px;
+    font-size: 1.2rem;
+}
+
+.btn-container{
+    width: 100%;
+}
+.btn{
+    padding: 12px;
+    border: none;
+    background-color: #ffff;
+    border-radius: 5px;
+    color: #222;
+    font-family: robotoBold;
+    cursor: pointer;
+}
+
+/* Media Queries */
+@media(max-width: 320px){
+    .form-container{
+        padding: 20px;
+        row-gap: 10px;
+    }
+    
+    .header-section{
+        font-size: .4rem;
+    }
+    
+    .title input{
+        font-size: .5rem;
+        padding: 15px;
+    }
+    
+    .body textarea{
+        text-indent: 5px;
+        padding: 5px;
+        font-size: .8rem;
+    }
+    .btn{
+        padding: 12px;
+        font-size: 5px;
+    }
+}
+
+@media(min-width: 321px) and (max-width: 425px){
+    .form-container{
+        padding: 20px;
+        row-gap: 10px;
+    }
+    
+    .header-section{
+        font-size: .5rem;
+    }
+    
+    .title input{
+        font-size: .7rem;
+        padding: 15px;
+    }
+    
+    .body textarea{
+        text-indent: 5px;
+        padding: 5px;
+        font-size: 1rem;
+    }
+    .btn{
+        padding: 12px;
+        font-size: 7px;
+    }
+}
+
+@media(min-width: 426px) and (max-width: 768px){
+    .form-container{
+        padding: 20px;
+        row-gap: 10px;
+    }
+    
+    .header-section{
+        font-size: .7rem;
+    }
+    
+    .title input{
+        font-size: .9rem;
+        padding: 18px;
+    }
+    
+    .body textarea{
+        text-indent: 5px;
+        padding: 5px;
+        font-size: 1.2rem;
+    }
+    .btn{
+        padding: 12px;
+        font-size: 8px;
+    }
+}
+
+@media(min-width: 769px) and (max-width: 1024px){
+    .form-container{
+        padding: 20px;
+        row-gap: 15px;
+    }
+    
+    .header-section{
+        font-size: .8rem;
+    }
+    
+    .title input{
+        font-size: 1rem;
+        padding: 18px;
+    }
+    
+    .body textarea{
+        text-indent: 5px;
+        padding: 5px;
+        font-size: 1.4rem;
+    }
+    .btn{
+        padding: 12px;
+        font-size: 10px;
+    }
+}
+
+@media(min-width: 1025px){
+    .form-container{
+        padding: 20px;
+        row-gap: 20px;
+    }
+    
+    .header-section{
+        font-size: 1.2rem;
+    }
+    
+    .title input{
+        font-size: 1rem;
+        padding: 18px;
+    }
+    
+    .body textarea{
+        text-indent: 5px;
+        padding: 5px;
+        font-size: 1.5rem;
+    }
+    .btn{
+        padding: 12px;
+        font-size: 15px;
+    }
+}
